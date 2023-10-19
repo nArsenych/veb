@@ -1,0 +1,162 @@
+body{
+    display: grid;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(90, 18, 96);
+    border-radius: 15px;
+    display: flex;
+}
+
+header nav {
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(229, 131, 238);
+}
+
+.main {
+    display: flex;
+    list-style: none;
+    justify-content: space-between; 
+}
+
+.main a {
+    margin-left: 20px;
+}
+
+header li {
+    margin-left: 20px;
+    width: 75px;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+.main :nth-child(6) {
+    color: rgb(56, 4, 69);
+    text-decoration: underline overline;
+    margin-left: 600px;
+}
+
+.main_container {
+    display: grid;   
+    grid-template-columns: 80% 1fr;
+   
+}
+
+.main_page {
+    display: grid;
+}
+
+.center_of_page {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+.two_blocks {
+    display: grid;   
+    grid-template-rows: 1fr auto;
+}
+
+.block2 {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    border: 1.5px solid gray;
+    border-radius: 25px;
+}
+
+.block5 {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block5 p {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.mahmut {
+    height: 110px;
+    width: 170px;
+    margin-left: 5px;
+}
+
+.block3 {
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.block3 :nth-child(1) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(90, 18, 96);
+}
+
+.block3 p {
+    font-size: 25px;
+    color: rgb(65, 7, 88);
+    overflow-wrap: break-word;
+}
+
+aside {
+    font-size: 19px;
+    color: rgb(124, 43, 200);
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+aside p {
+    font-style: oblique;
+    text-align: center;
+}
+ 
+.block6 {
+    color: rgb(58, 8, 92);
+    border: 2px solid rgb(58, 8, 92);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+   
+.block6 :nth-child(2) img {
+    width: 80%;
+}
+
+.block6 :nth-child(1) h4 {
+    color: rgb(56, 4, 69);
+    text-decoration: underline overline;
+    margin-left: 30px;
+}
+
+.mriy {
+    height: 110px;
+    width: 180px;
+}
+
+.sadsvit {
+    height: 100px;
+    width: 170px;
+    margin-left: 5px;
+}

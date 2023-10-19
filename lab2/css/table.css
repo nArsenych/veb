@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color:  rgb(90, 18, 96);
+    border-radius: 15px;
+}
+
+.header_div1{
+    width: 10%;
+    justify-content: center;
+}
+
+.header_div2 {
+    width: 80%;
+    margin-top: -80px;
+    margin-left: 15%;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(229, 131, 238);
+}
+
+.main {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+}
+
+.header li {
+    width: 60px;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+.main {
+    display: flex;
+}
+
+.main :nth-child(4) {
+    color: rgb(56, 4, 69);
+    text-decoration: underline overline;
+}
+
+.block2 {
+    width: 15%;
+    height: auto;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    border: 1.5px solid gray;
+    border-radius: 25px;
+}
+
+.block5 {
+    width: 15%;
+    height: auto;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block5 p {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.mahmut {
+    height: 110px;
+    width: 170px;
+    margin-left: 5px;
+}
+
+.block3 {
+    width: 60%;
+    height: auto;
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.block3 :nth-child(1) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(90, 18, 96);
+}
+
+.block3 p {
+    font-size: 25px;
+    color: rgb(65, 7, 88);
+    overflow-wrap: break-word;
+}
+
+.block4 {
+    width: 25%;
+    height: auto;
+    font-size: 19px;
+    color: rgb(124, 43, 200);
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.block4 p {
+    font-style: oblique;
+    text-align: center;
+}
+
+.block6 {
+    width: 100%;
+    color: rgb(58, 8, 92);
+    border: 2px solid rgb(58, 8, 92);
+}
+
+.block6 :nth-child(2) {
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+}
+   
+.block6 :nth-child(2) img {
+    width: 80%;
+}
+
+.block6 :nth-child(1) {
+    width: 50%;
+    height: auto;
+}
+
+.block6 :nth-child(1) h4 {
+    color: rgb(56, 4, 69);
+    text-decoration: underline overline;
+    margin-left: 50px;
+}
